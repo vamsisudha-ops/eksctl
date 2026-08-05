@@ -8,8 +8,6 @@ managedNodeGroups:
   - name: roboshop-dev
     instanceTypes:
       - m5.large
-      - m5.xlarge
       - c5.large
-      - c5.xlarge
     desiredCapacity: 3 #  by default this value is 3
     spot: true
