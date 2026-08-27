@@ -11,5 +11,5 @@ managedNodeGroups:
       # - t3.small
       - c7i-flex.large
       - m7i-flex.large  
-    desiredCapacity: 6 #  by default this value is 3
+    desiredCapacity: 4 #  by default this value is 3
     spot: false
